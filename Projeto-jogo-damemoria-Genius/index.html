@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GENIUS</h1>
+    <p id="menssagem"></p>
+    <div class="primeira-linha">
+        <div class="campo" id="green" onclick="jogarUsuario(0)"></div>
+        <div class="campo" id="red" onclick="jogarUsuario(1)"></div>
+    </div>
+    <div class="segunda-linha">
+        <div class="campo" id="yellow" onclick="jogarUsuario(2)"></div>
+        <div class="campo" id="blue" onclick="jogarUsuario(3)"></div>
+    </div>
+
+    <h2>Level: </h2>
+    <h3>Pontuação: </h3>
+
+    <div class="botoes">
+        <button onclick="reiniciar()" id="button-reiniciar">Reiniciar</button>       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

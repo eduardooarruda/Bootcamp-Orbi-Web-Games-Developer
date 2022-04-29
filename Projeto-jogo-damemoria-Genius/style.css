@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white
+}
+
+.campo{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    /* margin: 5px; */
+    cursor: pointer;
+    /* border-radius: 5px; */
+}
+
+#green{
+    border-top-left-radius:100% ;
+    background-color: green;
+}
+
+#red{
+    border-top-right-radius: 100%;
+    background-color: red;
+}
+
+#yellow{
+    border-bottom-left-radius: 100%;
+    background-color: yellow;
+}
+
+#blue{
+    border-bottom-right-radius: 100%;
+    background-color: blue;
+}
+
+#button-reiniciar{
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    color:white;
+    background-color: red;
+}
+
+#menssagem{
+    color: white;
+}
