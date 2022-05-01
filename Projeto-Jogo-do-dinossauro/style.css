@@ -1,0 +1,26 @@
+body{
+    background-color:#fafafa;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/26/11/19/river-6968614_960_720.png);
+}
+
+h1{
+    text-align: center;
+}
+
+.caracol{
+    width: 60px;
+    height: 60px;
+    background-image: url(caracol.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.pedra{
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    background: url(pedra.png);
+    
+    
+}
